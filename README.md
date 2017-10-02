@@ -1,0 +1,1 @@
+# smarttv-device-recognizer
