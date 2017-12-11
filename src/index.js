@@ -18,6 +18,10 @@ class Recognizer {
     }
     return currentDevice;
   }
+
+  static getKeyCodes(brandName) {
+    return require(`./keycodes/${brandName}`);
+  }
 }
 
 export default Recognizer;

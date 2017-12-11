@@ -1,6 +1,6 @@
 {
   "name": "smarttv-device-recognizer",
-  "version": "0.1.0-alpha.7",
+  "version": "0.1.1",
   "description": "SmartTV Device Recognizer",
   "main": "dist/smarttv-device-recognizer.min.js",
   "author": {
