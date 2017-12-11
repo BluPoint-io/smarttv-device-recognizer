@@ -286,8 +286,10 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./webos": 3,
-		"./webos.js": 3
+		"./web": 3,
+		"./web.js": 3,
+		"./webos": 4,
+		"./webos.js": 4
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -305,6 +307,48 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 /* 3 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = {
+	  RIGHT: 39,
+	  LEFT: 37,
+	  UP: 38,
+	  DOWN: 40,
+	  RETURN: 8,
+	  ENTER: 13,
+	  PLAY: 415,
+	  PAUSE: 19,
+	  STOP: 413,
+	  FF: 417,
+	  RW: 412,
+	  RED: 403,
+	  GREEN: 404,
+	  YELLOW: 405,
+	  BLUE: 406,
+	  ZERO: 96,
+	  ONE: 97,
+	  TWO: 98,
+	  THREE: 99,
+	  FOUR: 100,
+	  FIVE: 101,
+	  SIX: 102,
+	  SEVEN: 103,
+	  EIGHT: 104,
+	  NINE: 105,
+	  PUP: 33,
+	  PDOWN: 34,
+	  PRECH: 46, // Delete
+	  TXTMIX: 110 // ,Del
+	};
+	module.exports = exports["default"];
+
+/***/ },
+/* 4 */
 /***/ function(module, exports) {
 
 	"use strict";
