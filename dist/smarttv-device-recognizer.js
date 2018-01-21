@@ -290,16 +290,18 @@ return /******/ (function(modules) { // webpackBootstrap
 		"./arcelik.js": 3,
 		"./philips": 4,
 		"./philips.js": 4,
-		"./sony": 5,
-		"./sony.js": 5,
-		"./tizen": 6,
-		"./tizen.js": 6,
-		"./vestel": 7,
-		"./vestel.js": 7,
-		"./web": 8,
-		"./web.js": 8,
-		"./webos": 9,
-		"./webos.js": 9
+		"./seraphic": 5,
+		"./seraphic.js": 5,
+		"./sony": 6,
+		"./sony.js": 6,
+		"./tizen": 7,
+		"./tizen.js": 7,
+		"./vestel": 8,
+		"./vestel.js": 8,
+		"./web": 9,
+		"./web.js": 9,
+		"./webos": 10,
+		"./webos.js": 10
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -426,6 +428,54 @@ return /******/ (function(modules) { // webpackBootstrap
 	  UP: 38,
 	  DOWN: 40,
 	  ENTER: 13,
+	  RETURN: 461,
+	  ZERO: 48,
+	  ONE: 49,
+	  TWO: 50,
+	  THREE: 51,
+	  FOUR: 52,
+	  FIVE: 53,
+	  SIX: 54,
+	  SEVEN: 55,
+	  EIGHT: 56,
+	  NINE: 57,
+	  RED: 403,
+	  GREEN: 404,
+	  YELLOW: 405,
+	  BLUE: 406,
+	  PLAY: 415,
+	  PAUSE: 19,
+	  STOP: 413,
+	  REC: 416,
+	  FF: 417,
+	  RW: 412,
+	  TOOLS: 470,
+	  PUP: 427,
+	  PDOWN: 428,
+	  CHLIST: -1,
+	  PRECH: -1,
+	  TXTMIX: -1,
+	  FAVCH: -1,
+	  EXIT: 528,
+	  INFO: -1
+	};
+	module.exports = exports["default"];
+
+/***/ },
+/* 6 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = {
+	  LEFT: 37,
+	  RIGHT: 39,
+	  UP: 38,
+	  DOWN: 40,
+	  ENTER: 13,
 	  RETURN: 8,
 	  ZERO: 48,
 	  ONE: 49,
@@ -460,7 +510,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -508,7 +558,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -556,7 +606,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 8 */
+/* 9 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -598,7 +648,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 9 */
+/* 10 */
 /***/ function(module, exports) {
 
 	"use strict";
