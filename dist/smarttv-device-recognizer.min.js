@@ -288,20 +288,22 @@ return /******/ (function(modules) { // webpackBootstrap
 	var map = {
 		"./arcelik": 3,
 		"./arcelik.js": 3,
-		"./philips": 4,
-		"./philips.js": 4,
-		"./seraphic": 5,
-		"./seraphic.js": 5,
-		"./sony": 6,
-		"./sony.js": 6,
-		"./tizen": 7,
-		"./tizen.js": 7,
-		"./vestel": 8,
-		"./vestel.js": 8,
-		"./web": 9,
-		"./web.js": 9,
-		"./webos": 10,
-		"./webos.js": 10
+		"./lg": 4,
+		"./lg.js": 4,
+		"./philips": 5,
+		"./philips.js": 5,
+		"./seraphic": 6,
+		"./seraphic.js": 6,
+		"./sony": 7,
+		"./sony.js": 7,
+		"./tizen": 8,
+		"./tizen.js": 8,
+		"./vestel": 9,
+		"./vestel.js": 9,
+		"./web": 10,
+		"./web.js": 10,
+		"./webos": 11,
+		"./webos.js": 11
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -375,6 +377,64 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	exports.default = {
+	  LEFT: 37,
+	  RIGHT: 39,
+	  UP: 38,
+	  DOWN: 40,
+	  ENTER: 13,
+	  RETURN: 461,
+	  ZERO: 48,
+	  ONE: 49,
+	  TWO: 50,
+	  THREE: 51,
+	  FOUR: 52,
+	  FIVE: 53,
+	  SIX: 54,
+	  SEVEN: 55,
+	  EIGHT: 56,
+	  NINE: 57,
+	  NUMERIC_ZERO: 96, // keyCode of numeric keys on External USB keyboard
+	  NUMERIC_ONE: 97,
+	  NUMERIC_TWO: 98,
+	  NUMERIC_THREE: 99,
+	  NUMERIC_FOUR: 100,
+	  NUMERIC_FIVE: 101,
+	  NUMERIC_SIX: 102,
+	  NUMERIC_SEVEN: 103,
+	  NUMERIC_EIGHT: 104,
+	  NUMERIC_NINE: 105,
+	  RED: 403,
+	  GREEN: 404,
+	  YELLOW: 405,
+	  BLUE: 406,
+	  PLAY: 415,
+	  PAUSE: 19,
+	  STOP: 413,
+	  REC: 416,
+	  FF: 417,
+	  RW: 412,
+	  TOOLS: -1,
+	  PUP: 33,
+	  PDOWN: 34,
+	  CHLIST: -1,
+	  PRECH: -1,
+	  TXTMIX: -1,
+	  FAVCH: -1,
+	  EXIT: -1,
+	  INFO: 457
+	};
+	module.exports = exports["default"];
+
+/***/ },
+/* 5 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = {
 	  LEFT: VK_LEFT,
 	  RIGHT: VK_RIGHT,
 	  UP: VK_UP,
@@ -414,7 +474,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 5 */
+/* 6 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -462,7 +522,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -510,7 +570,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -558,7 +618,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 8 */
+/* 9 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -606,7 +666,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 9 */
+/* 10 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -648,7 +708,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 10 */
+/* 11 */
 /***/ function(module, exports) {
 
 	"use strict";
