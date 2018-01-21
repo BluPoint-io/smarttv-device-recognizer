@@ -290,14 +290,16 @@ return /******/ (function(modules) { // webpackBootstrap
 		"./arcelik.js": 3,
 		"./philips": 4,
 		"./philips.js": 4,
-		"./tizen": 5,
-		"./tizen.js": 5,
-		"./vestel": 6,
-		"./vestel.js": 6,
-		"./web": 7,
-		"./web.js": 7,
-		"./webos": 8,
-		"./webos.js": 8
+		"./sony": 5,
+		"./sony.js": 5,
+		"./tizen": 6,
+		"./tizen.js": 6,
+		"./vestel": 7,
+		"./vestel.js": 7,
+		"./web": 8,
+		"./web.js": 8,
+		"./webos": 9,
+		"./webos.js": 9
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -424,6 +426,54 @@ return /******/ (function(modules) { // webpackBootstrap
 	  UP: 38,
 	  DOWN: 40,
 	  ENTER: 13,
+	  RETURN: 8,
+	  ZERO: 48,
+	  ONE: 49,
+	  TWO: 50,
+	  THREE: 51,
+	  FOUR: 52,
+	  FIVE: 53,
+	  SIX: 54,
+	  SEVEN: 55,
+	  EIGHT: 56,
+	  NINE: 57,
+	  RED: 403,
+	  GREEN: 404,
+	  YELLOW: 502,
+	  BLUE: 406,
+	  PLAY: 415,
+	  PAUSE: 19,
+	  STOP: 413,
+	  REC: -1,
+	  FF: 465,
+	  RW: 412,
+	  TOOLS: -1,
+	  PUP: -1,
+	  PDOWN: -1,
+	  CHLIST: -1,
+	  PRECH: -1,
+	  TXTMIX: -1,
+	  FAVCH: -1,
+	  EXIT: -1,
+	  INFO: 469
+	};
+	module.exports = exports["default"];
+
+/***/ },
+/* 6 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = {
+	  LEFT: 37,
+	  RIGHT: 39,
+	  UP: 38,
+	  DOWN: 40,
+	  ENTER: 13,
 	  RETURN: 10009,
 	  ZERO: 48,
 	  ONE: 49,
@@ -458,7 +508,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -506,7 +556,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -548,7 +598,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 8 */
+/* 9 */
 /***/ function(module, exports) {
 
 	"use strict";
