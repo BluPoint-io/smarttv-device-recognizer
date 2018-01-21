@@ -288,12 +288,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	var map = {
 		"./arcelik": 3,
 		"./arcelik.js": 3,
-		"./tizen": 4,
-		"./tizen.js": 4,
-		"./web": 5,
-		"./web.js": 5,
-		"./webos": 6,
-		"./webos.js": 6
+		"./philips": 4,
+		"./philips.js": 4,
+		"./tizen": 5,
+		"./tizen.js": 5,
+		"./web": 6,
+		"./web.js": 6,
+		"./webos": 7,
+		"./webos.js": 7
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -367,6 +369,54 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	exports.default = {
+	  LEFT: VK_LEFT,
+	  RIGHT: VK_RIGHT,
+	  UP: VK_UP,
+	  DOWN: VK_DOWN,
+	  ENTER: VK_ENTER,
+	  RETURN: VK_BACK,
+	  ZERO: VK_0,
+	  ONE: VK_1,
+	  TWO: VK_2,
+	  THREE: VK_3,
+	  FOUR: VK_4,
+	  FIVE: VK_5,
+	  SIX: VK_6,
+	  SEVEN: VK_7,
+	  EIGHT: VK_8,
+	  NINE: VK_9,
+	  RED: VK_RED,
+	  GREEN: VK_GREEN,
+	  YELLOW: VK_YELLOW,
+	  BLUE: VK_BLUE,
+	  PLAY: VK_PLAY,
+	  PAUSE: VK_PAUSE,
+	  STOP: VK_STOP,
+	  REC: -1,
+	  FF: VK_FAST_FWD,
+	  RW: VK_REWIND,
+	  TOOLS: -1,
+	  PUP: VK_PAGE_UP,
+	  PDOWN: VK_PAGE_DOWN,
+	  CHLIST: -1,
+	  PRECH: -1,
+	  TXTMIX: -1,
+	  FAVCH: -1,
+	  EXIT: -1,
+	  INFO: VK_INFO
+	};
+	module.exports = exports["default"];
+
+/***/ },
+/* 5 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = {
 	  LEFT: 37,
 	  RIGHT: 39,
 	  UP: 38,
@@ -406,7 +456,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 5 */
+/* 6 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -448,7 +498,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports) {
 
 	"use strict";
