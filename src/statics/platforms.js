@@ -58,6 +58,12 @@ const platforms = [
     displayName: 'Samsung SmartTV Tizen | 2016'
   },
   {
+    agentIndex: 'Tizen 4.0',
+    brandName: 'tizen',
+    modelYear: '2017',
+    displayName: 'Samsung SmartTV Tizen | 2017'
+  },
+  {
     agentIndex: 'Tizen',
     brandName: 'tizen',
     modelYear: '2015',
@@ -100,71 +106,41 @@ const platforms = [
     displayName: 'LG SmartTV NetCast | 2016'
   },
   {
-    agentIndex: 'NETTV\/3',
+    agentIndex: 'NETTV/3',
     brandName: 'philips',
     modelYear: '2011',
     displayName: 'Philips SmartTV | 2011'
   },
   {
-    agentIndex: 'NETTV\/4\.0',
+    agentIndex: 'NETTV/4.0',
     brandName: 'philips',
     modelYear: '2012',
     displayName: 'Philips SmartTV | 2012'
   },
   {
-    agentIndex: 'NETTV\/',
+    agentIndex: 'NETTV/',
     brandName: 'philips',
     modelYear: '2013',
     displayName: 'Philips SmartTV | 2013'
   },
   {
-    agentIndex: 'DuneHD\/',
+    agentIndex: 'DuneHD/',
     brandName: 'philips',
     modelYear: 'undefined',
     displayName: 'Philips SmartTV'
   },
   {
-    agentIndex: 'Viera\/1\.',
+    agentIndex: 'Viera/1.',
     brandName: 'viera',
     modelYear: '2012',
     displayName: 'Viera SmartTV | 2012'
   },
- /*  {
-    agentIndex: 'SmartTvA\/',
-    brandName: 'alliance',
-    modelYear: 'generic',
-    displayName: 'Alliance SmartTV | Generic'
-  },
   {
-    agentIndex: 'ToshibaTP\/',
-    brandName: 'alliance',
-    modelYear: 'toshiba',
-    displayName: 'Alliance SmartTV | Toshiba'
-  },*/
-  {
-    agentIndex: 'Viera\/3\.',
+    agentIndex: 'Viera/3.',
     brandName: 'viera',
     modelYear: '2013',
     displayName: 'Viera SmartTV | 2013'
   },
-   /*  {
-   'agentIndex': '537.41',
-   'brandName': 'webos',
-   'modelYear': '1.x',
-   'displayName': 'LG WebOS SmartTV | 1.x'
-   },
-   {
-   'agentIndex': '538.2',
-   'brandName': 'webos',
-   'modelYear': '2.x',
-   'displayName': 'LG WebOS SmartTV | 2.x'
-   },
-   {
-   'agentIndex': '537.36',
-   'brandName': 'webos',
-   'modelYear': '3.x',
-   'displayName': 'LG WebOS SmartTV | 3.x'
-   },*/
   {
     agentIndex: 'Web0S',
     brandName: 'webos',
@@ -182,6 +158,18 @@ const platforms = [
     brandName: 'hisense',
     modelYear: 'undefined',
     displayName: 'Hisense SmartTV'
+  },
+  {
+    agentIndex: 'SRAF',
+    brandName: 'seraphic',
+    modelYear: 'undefined',
+    displayName: 'Seraphic Device'
+  },
+  {
+    agentIndex: 'NETRANGEMMH',
+    brandName: 'web',
+    modelYear: 'undefined',
+    displayName: 'Netrange Group Smart TV'
   }
 ];
 

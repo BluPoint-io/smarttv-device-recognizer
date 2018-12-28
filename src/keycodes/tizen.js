@@ -4,6 +4,7 @@ export default {
   UP: 38,
   DOWN: 40,
   ENTER: 13,
+  BACK: 65385,
   RETURN: 10009,
   ZERO: 48,
   ONE: 49,
@@ -32,6 +33,6 @@ export default {
   PRECH: -1,
   TXTMIX: -1,
   FAVCH: -1,
-  EXIT: 528,
+  EXIT: 10182,
   INFO: -1
-}
+};
