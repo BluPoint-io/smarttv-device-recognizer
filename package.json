@@ -1,11 +1,11 @@
 {
   "name": "smarttv-device-recognizer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "SmartTV Device Recognizer",
   "main": "dist/smarttv-device-recognizer.min.js",
   "author": {
-    "name": "Serdar AGLAMIS",
-    "email": "serdaraglamis@gmail.com"
+    "name": "BluPointIO",
+    "email": "dev@blutv.com"
   },
   "license": "MIT",
   "scripts": {
