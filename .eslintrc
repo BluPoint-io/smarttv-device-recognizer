@@ -8,6 +8,7 @@
     "window": true
   },
   "rules": {
+    "indent": ["error", "tab"],
     "no-multi-spaces": 0,
     "no-underscore-dangle": [0],
     "consistent-return": 0,
@@ -33,6 +34,7 @@
     "no-mixed-operators": 0,
     "no-useless-escape": 0,
     "global-require": 0,
-    "no-new-object": 0
+    "no-new-object": 0,
+    "no-tabs": 0
   }
 }
