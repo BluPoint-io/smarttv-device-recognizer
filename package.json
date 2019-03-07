@@ -2,7 +2,8 @@
   "name": "smarttv-device-recognizer",
   "version": "1.1.0",
   "description": "SmartTV Device Recognizer",
-  "main": "dist/smarttv-device-recognizer.min.js",
+  "main": "dist/smarttv-device-recognizer.js",
+
   "author": {
     "name": "BluPointIO",
     "email": "dev@blutv.com"
@@ -15,9 +16,7 @@
     "cover": "open coverage/lcov-report/index.html",
     "eslint": "eslint src --ext .js",
     "eslint:fix": "eslint src .js --fix",
-    "eslint:test": "eslint -c test/.eslintrc test --ext .js",
-    "prepublish": "npm run build",
-    "doc": "yuidoc src/ -o ghpages/src/generated -t ghpages/yuidoctheme"
+    "eslint:test": "eslint -c test/.eslintrc test --ext .js"
   },
   "devDependencies": {
     "babel-core": "6.17.0",
@@ -50,7 +49,6 @@
     "phantomjs-prebuilt": "^2.1.16",
     "webpack": "1.13.2",
     "webpack-merge": "^0.14.1",
-    "yargs": "6.0.0",
-    "yuidocjs": "^0.10.2"
+    "yargs": "6.0.0"
   }
 }

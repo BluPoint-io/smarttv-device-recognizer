@@ -1,42 +1,21 @@
-const path    = require('path');
-const env     = require('yargs').argv.mode;
-const webpack = require('webpack');
-
+const path = require('path');
 const projectRoot = path.resolve(__dirname, '/');
-
-const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 const libraryName = 'smarttv-device-recognizer';
 
 const plugins = [];
-let outputFile;
-
-if (env === 'build') {
-  //plugins.push(new UglifyJsPlugin({ minimize: false }));
-  outputFile = `${libraryName}.min.js`;
-} else {
-  outputFile = `${libraryName}.js`;
-}
 
 const config = {
   entry: `${__dirname}/src/index.js`,
   devtool: 'source-map',
   output: {
     path: `${__dirname}/dist`,
-    filename: outputFile,
+    filename: `${libraryName}.js`,
     library: libraryName,
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
   module: {
-   /* preLoaders: [
-      {
-        test: /(\.jsx|\.js)$/,
-        loader: 'eslint',
-        include: projectRoot,
-        exclude: /(node_modules|bower_components)/
-      }
-    ],*/
     loaders: [
       {
         test: /(\.jsx|\.js)$/,
