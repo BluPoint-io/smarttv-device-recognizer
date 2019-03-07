@@ -1,4 +1,4 @@
-# smarttv-device-recognizer
+# SmartTV Device Recognizer
 
 Are you bored from identicate what's the current device and what is it's capabilities? Are you tired catch up new SmartTV devices? This is a lightweight library to recognize your current device. You can develop other things without thinking device platform
 
@@ -39,6 +39,6 @@ let currentDevice = Recognizer.setCurrentDevice();
 
 > Are you looking for complete smarttv development suite? Yes, we are developing a new smarttv-framework for your all core requirements. While we develop it you may give it a try or give us a star?
 
-https://github.com/dogantv/smarttv
+https://github.com/blupoint-io/smarttv
 
 > ##### You can use this product easily with zero configuration within our smarttv-framework (documents will be ready soon!)
