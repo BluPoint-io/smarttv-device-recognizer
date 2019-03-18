@@ -4,6 +4,12 @@
  */
 const platforms = [
 	{
+		agentIndex: 'browserDefault',
+		brandName: 'web',
+		modelYear: '2017',
+		displayName: 'Default Browser'
+	},
+	{
 		agentIndex: 'Maple 5',
 		brandName: 'samsung',
 		modelYear: '2010',
