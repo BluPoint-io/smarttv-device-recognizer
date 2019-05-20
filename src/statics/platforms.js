@@ -166,6 +166,12 @@ const platforms = [
 		displayName: 'Seraphic Device'
 	},
 	{
+		agentIndex: 'SRAF; Arcelik',
+		brandName: 'arcelik',
+		modelYear: 'undefined',
+		displayName: 'Arçelik Group Smart TV'
+	},
+	{
 		agentIndex: 'NETRANGEMMH',
 		brandName: 'web',
 		modelYear: 'undefined',
