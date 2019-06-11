@@ -3,7 +3,6 @@
   "version": "1.1.0",
   "description": "SmartTV Device Recognizer",
   "main": "dist/smarttv-device-recognizer.js",
-
   "author": {
     "name": "BluPointIO",
     "email": "dev@blutv.com"
@@ -32,11 +31,11 @@
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-mocha": "^4.7.0",
     "eslint-plugin-react": "^6.9.0",
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.4",
     "grunt-sonar-runner": "^2.4.8",
     "isparta": "^4.0.0",
     "isparta-loader": "^2.0.0",
-    "jsdoc": "^3.4.3",
+    "jsdoc": "^3.6.2",
     "karma": "^4.0.1",
     "karma-babel-preprocessor": "^8.0.0",
     "karma-coverage": "^1.1.2",
@@ -45,7 +44,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-spec-reporter": "^0.0.32",
     "karma-webpack": "^3.0.5",
-    "mocha": "^6.0.2",
+    "mocha": "^6.1.4",
     "phantomjs-prebuilt": "^2.1.16",
     "webpack": "1.13.2",
     "webpack-merge": "^0.14.1",
