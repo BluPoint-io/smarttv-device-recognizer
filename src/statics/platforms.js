@@ -72,8 +72,8 @@ const platforms = [
 	{
 		agentIndex: 'Tizen',
 		brandName: 'tizen',
-		modelYear: '2015',
-		displayName: 'Samsung Tizen | 2015'
+		modelYear: 'undefined',
+		displayName: 'Samsung Tizen'
 	},
 	{
 		agentIndex: 'MB110',
