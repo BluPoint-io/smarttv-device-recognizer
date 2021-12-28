@@ -100,6 +100,30 @@ const platforms = [
 		displayName: 'Vestel MB211'
 	},
 	{
+		agentIndex: 'MB97',
+		brandName: 'vestel',
+		modelYear: 'undefined',
+		displayName: 'Vestel MB97'
+	},
+	{
+		agentIndex: 'MB180',
+		brandName: 'vestel',
+		modelYear: 'undefined',
+		displayName: 'Vestel MB180'
+	},
+	{
+		agentIndex: 'MB181',
+		brandName: 'vestel',
+		modelYear: 'undefined',
+		displayName: 'Vestel MB181'
+	},
+	{
+		agentIndex: 'MB230',
+		brandName: 'vestel',
+		modelYear: 'undefined',
+		displayName: 'Vestel MB230'
+	},
+	{
 		agentIndex: 'VESTEL',
 		brandName: 'vestel',
 		modelYear: 'undefined',
